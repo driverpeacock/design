@@ -1,0 +1,434 @@
+/** media query **/ 
+@media (min-width: 1300px) and (max-width: 1400px){
+
+
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1300px){
+
+
+
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px){
+header.header ul.navbar-nav li a {
+    font-size: 12px;
+    padding: 10px 15px !important;
+}
+.top-right {
+    font-size: 11px;
+}
+.top-contact-text {
+    padding-right: 10px;
+}
+.cust-worldwide span.cust-worldwide {
+    font-size: 16px;
+}
+section.contact-section .contact-block {
+    padding: 10px !important;
+    margin-bottom: 30px;
+}
+section.contact-section {
+    padding: 30px 0;
+}
+.banner-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.finance-box h2 {
+    font-size: 16px;
+    line-height: 20px;
+
+}
+.finance-box {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+.single-brand {
+    height: 130px;
+
+}
+.it-footer-area .single-footer-widget {
+    padding: 0 !important;
+}
+.banner-text h1 {
+    font-size: 22px;
+    line-height: 30px;
+}
+.trustes-customers-img {
+    text-align: center;
+}
+.support-left-col h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.title h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.price-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.price-text p {
+    font-size: 15px;
+}
+.demo-text h2 {
+    font-size: 26px;
+    line-height: 30px;
+}
+.text-right.dark-mode-texts a.btn {
+    font-size: 12px;
+    padding: 10px 15px;
+}
+.dark-mode-texts h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.banner-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.approch-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.misssion-box {
+    margin-bottom: 20px;
+}
+section.contact-section .contact-block {
+    padding: 10px !important;
+    margin-bottom: 30px;
+}
+section.inner-banner {
+    padding: 20px 0;
+}
+.contact-text h2 {
+    font-size: 44px;
+    line-height: 45px;
+
+}
+section.contact-section {
+    padding: 20px 0;
+}
+.finance-box {
+    margin-bottom: 20px;
+}
+.everything-col {
+    display: block;
+}
+
+.everything-text {
+    padding: 0;
+}
+
+.everything-icon {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.tab-img img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+
+
+}
+
+@media(max-width: 767px){
+.banner-text h1 {
+    font-size: 22px;
+    line-height: 30px;
+}
+section.banner-sec {
+    padding: 10px 0 0;
+}
+.regular-section {
+    padding: 20px 0;
+}
+.title h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.features-silder .owl-nav button.owl-prev, .features-silder .owl-nav button.owl-next {
+    display: none;
+}
+section.simplifies-sec {
+    padding: 20px 0;
+}
+.simplifies-silder .owl-nav button.owl-prev, .simplifies-silder .owl-nav button.owl-next {
+    display: none;
+}
+.review-sec .owl-nav button.owl-prev, .review-sec .owl-nav button.owl-next {
+    display: none;
+}
+.cust-worldwide span.cust-worldwide {
+    font-size: 16px;
+
+}
+.cust-worldwide h4 {
+    font-size: 40px;
+
+}
+.trustes-customers-img {
+    text-align: center;
+}
+.support-section {
+    padding: 20px 0;
+}
+
+.support-left-col h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.title {
+    text-align: center;
+    margin-bottom: 0;
+}
+.price-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+section.price-package {
+    padding: 20px 0;
+}
+.price-text p {
+    font-size: 16px;
+}
+.pricing-card {
+    margin-top: 10px;
+}
+.benefits-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+section.benefits-sec {
+    padding: 20px 0;
+}
+.demo-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+section.free-demo {
+    padding: 20px 0;
+}
+section.faq-sec {
+    padding: 20px 0;
+}
+.faq-list button.accordion-button {
+    font-size: 14px;
+    line-height: 30px;
+}
+section.brand-section {
+    background: #08a4ca;
+    padding: 20px 0;
+}
+section.review-sec {
+    padding: 20px 0;
+}
+div#review-silder {
+    margin-top: 0;
+}
+.it-feedback-card{
+	margin-bottom: 0;
+}
+.dark-mode-texts h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+section.cta-section {
+    padding: 20px 0;
+
+}
+.footer-area {
+    padding-top: 20px;
+}
+.single-footer-widget .logo {
+    margin-bottom: 10px;
+}
+.it-footer-area .single-footer-widget {
+    padding: 0 !important;
+}
+header.header ul.navbar-nav li a {
+   padding: 10px 0 !important;
+
+}
+.banner-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+section.inner-banner {
+    padding: 20px 0;
+}
+section.who-sec {
+    padding: 20px 0;
+}
+.who-text h2 {
+    font-size: 24px;
+}
+
+.who-text {
+    padding: 20px 0 0;
+}
+section.misssion-sec {
+    padding: 20px 0;
+}
+.misssion-box {
+    margin-bottom: 15px;
+}
+.approch-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+section.approch-sec {
+    padding: 20px 0;
+}
+.features-list-info ul {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+}
+
+section.features-list {
+    padding: 20px 0;
+}
+.contact-text h2 {
+    font-size: 60px;
+    line-height: 60px;
+}
+section.contact-section .contact-block {
+    margin-bottom: 10px;
+}
+
+section.contact-section {
+    padding: 20px 0;
+}
+.contact-form {
+    margin: 30px 0 0 0;
+}
+section.blog-sec {
+    padding: 20px 0;
+}
+section.blog-sec .pdt-30 {
+    padding-top: 0;
+}
+section.transform-sec {
+    padding: 20px 0;
+}
+.transform-text h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+section.explore-sec {
+    padding: 20px 0;
+}
+
+section.best-soft {
+    padding: 20px 0;
+}
+section.best-soft .tab-content>.tab-pane .row .col-lg-4.col-md-3 {
+    display: block;
+}
+.tab-img {
+    margin: 20px 0 0;
+}
+.finance-box {
+    margin-bottom: 15px;
+}
+section.finance-sec {
+    padding: 20px 0;
+}
+
+section.quality-sec {
+    padding: 20px 0;
+}
+.everything-col {
+    display: block;
+    padding: 15px;
+}
+
+.everything-icon {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.everything-text {
+    padding: 0;
+}
+
+.everything-text h2 {
+    font-size: 20px;
+}
+.comman-page-title h1 {
+    font-size: 32px;
+}
+
+section.policy-sec {
+    padding: 20px 0;
+}
+
+.ui-text h2 {
+    font-size: 24px;
+}
+ol.comment-list {
+    padding: 0;
+}
+
+ol.children {
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+.reply {
+    position: relative !important;
+    bottom: 0 !important;
+}
+
+article.comment-body {
+    padding: 30px 0 !important;
+}
+
+.comment-content {
+    overflow: visible !important;
+}
+.thanku-info h1 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.thanku-info h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+
+    
+}
+@media(max-width: 480px){
+
+    
+}
+
+@media(max-width: 360px){
+
+    
+}
+
+
+

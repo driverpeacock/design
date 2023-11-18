@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Booking | Page</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+   </head>
+   <body>
+      <!-- Header sec start here -->
+      <header class="header">
+         <nav class="navbar navbar-expand-lg">
+            <div class="container">
+               <a class="navbar-brand" href="index.html">
+               <img src="assets/images/logo.svg" alt="">
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a class="nav-link active"  href="#">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Our Fleet
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                           <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                        </a>
+                        <ul class="dropdown-menu">
+                           <li><a class="dropdown-item" href="#">Action</a></li>
+                           <li><a class="dropdown-item" href="#">Another action</a></li>
+                           <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                     </li>
+                  </ul>
+                  <div class="right-menu">
+                     <ul class="d-flex right-nav">
+                        <li class="nav-item"><a class="nav-link " href="tel:+41 22 715 7000"><img src="assets/images/call.svg" alt=""> +41 22 715 7000</a></li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           <img src="assets/images/globe.svg" alt="">  EN
+                           </a>
+                           <ul class="dropdown-menu">
+                              <li><a href="#"><img src="assets/images/en.png" alt="luxride"> English</a></li>
+                              <li><a href="#"><img src="assets/images/fr.png" alt="luxride"> French</a></li>
+                              <li><a href="#"><img src="assets/images/cn.png" alt="luxride"> Chiness</a></li>
+                           </ul>
+                        </li>
+                        <li>
+                           <a class="btn btn-default" href="#">Log In</a>
+                        </li>
+                        <li>
+                           <a class="btn btn-white" href="#">Sign Up</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- Header sec end  here -->
+      <!-- Booking form sec start here -->
+      <section class="booking-sec">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-md-9 col-lg-9 col-xl-9">
+                  <div class="row">
+                     <div class="col-lg-7 col-md-7">
+                        <div class="booking-form">
+                           <ul class="nav nav-tabs nav-pills nav-justified" id="myTab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                 <button class="nav-link " id="account-tab" data-bs-toggle="tab" data-bs-target="#account" type="button" role="tab" aria-controls="account" aria-selected="true">Account</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                 <button class="nav-link active" id="personal-tab" data-bs-toggle="tab" data-bs-target="#personal" type="button" role="tab" aria-controls="personal" aria-selected="false">Personal</button>
+                              </li>
+                           </ul>
+                           <div class="tab-content" id="myTabContent">
+                              <div class="tab-pane fade " id="account" role="tabpanel" aria-labelledby="account-tab">
+                              </div>
+                              <div class="tab-pane fade show active" id="personal" role="tabpanel" aria-labelledby="personal-tab">
+                                 <div class="booking-box">
+                                    <div class="journey-box step">
+                                       <div class="d-flex">
+                                          <h3>Journey details</h3>
+                                       </div>
+                                       <div class="book-input">
+                                          <div class="search-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                          <div class="address-search">
+                                             <div class="form-control">
+                                                <label>
+                                                <span> Pick Up  </span>
+                                                <input type="text" placeholder="Enter Location" name="">
+                                                </label>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="book-input">
+                                          <div class="search-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                          <div class="address-search">
+                                             <div class="form-control">
+                                                <label>
+                                                <span>  Drop off    </span>
+                                                <input type="text" placeholder="Enter Location" name="">
+                                                </label>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="book-input">
+                                          <div class="search-icon"><i class="fa-solid fa-calendar-days"></i> </div>
+                                          <div class="address-search">
+                                             <div class="form-control">
+                                                <label>
+                                                <span>Date of Journey</span>
+                                                <input type="date" placeholder="" name="">
+                                                </label>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="service-box step">
+                                       <div class="d-flex">
+                                          <h3>CHOOSE YOUR SERVICE</h3>
+                                       </div>
+                                       <div class="service-car">
+                                          <div class="products-step">
+                                             <div class="service-car-img">
+                                                <img src="assets/images/book-img.png" alt="">
+                                             </div>
+                                             <div class="service-car-info">
+                                                <div class="info-head d-flex">
+                                                   <h4> Select </h4>
+                                                   <div class="pass-icons">
+                                                      <span class="pess-icon">
+                                                      <img src="assets/images/pass-icon.svg" alt="">
+                                                      4
+                                                      </span>
+                                                      <span class="pess-icon">
+                                                      <img src="assets/images/bag-icon.svg" alt="">
+                                                      2
+                                                      </span>
+                                                   </div>
+                                                </div>
+                                                <p> Everyday choice and comfort - professional driver and medium car for up to 4 people and 2 large bags </p>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="payment-box step">
+                                       <div class="d-flex">
+                                          <h3>PAYMENT DETAILS</h3>
+                                          <a href="#">Switch to account</a>
+                                       </div>
+                                       <div class="book-input">
+                                          <div class="search-icon"><i class="fa-regular fa-credit-card"></i> </div>
+                                          <div class="address-search">
+                                             <div class="form-control">
+                                                <label>
+                                                   <span>Payment details</span>
+                                                   <select class="" aria-label="Default select example">
+                                                      <option selected> Card</option>
+                                                      <option value="1"> Cash </option>
+                                                      <option value="2"> Paypal </option>
+                                                   </select>
+                                                </label>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="pass-info step">
+                                       <div class="d-flex">
+                                          <h3>PASSENGER DETAILS</h3>
+                                          <a href="#">Already a member? Sign in</a>
+                                       </div>
+                                       <div class="alert-box">
+                                          <div class="alert-icon">
+                                             <img src="assets/images/alert-icon.svg" alt="">
+                                          </div>
+                                          <div class="alert-info">
+                                             <p>By providing personal data, you acknowledge that you have read and understood our <a href="#">Privacy Notice</a></p>
+                                          </div>
+                                       </div>
+                                       <div class="book-input">
+                                          <div class="form-control">
+                                             <label>
+                                             <span> Name </span>
+                                             <input type="text" placeholder="Enter Name" name="">
+                                             </label>
+                                          </div>
+                                       </div>
+                                       <div class="book-input">
+                                          <div class="form-control">
+                                             <label>
+                                             <span> E-mail </span>
+                                             <input type="text" placeholder="Enter e-mail" name="">
+                                             </label>
+                                          </div>
+                                       </div>
+                                       <div class="book-input">
+                                          <div class="form-control">
+                                             <label>
+                                             <span>Mobile  Number </span>
+                                             <input type="text" placeholder="Enter Mobile  Number" name="">
+                                             </label>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-5 col-md-5">
+                        <div class="side-bar-form">
+                           <div class="map-book">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.9178958001658!2d77.32280507495454!3d28.572228086817578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce44e94a2663f%3A0x96317734f1be41f7!2sNoida%20Sector%2018%2C%20Noida%2C%20Uttar%20Pradesh%20201301!5e0!3m2!1sen!2sin!4v1700231601614!5m2!1sen!2sin" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           </div>
+                           <div class="sidebar-booking-info">
+                              <div class="booking-side-info">
+                                 <div class="sidebar-status">
+                                    <div class="sidebar-item">
+                                       <span>From</span>
+                                       <p>Information required</p>
+                                    </div>
+                                    <div class="sidebar-item">
+                                       <span>To</span>
+                                       <p>Information required</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="booking-side-info">
+                                 <div class="sidebar-status">
+                                    <div class="sidebar-item">
+                                       <span>Service type</span>
+                                       <p> Select </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="booking-side-info">
+                                 <div class="sidebar-status">
+                                    <div class="sidebar-item">
+                                       <span>Passenger details</span>
+                                       <p>Information required</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="booking-side-info">
+                                 <div class="sidebar-status">
+                                    <div class="sidebar-item">
+                                       <span>Payment details</span>
+                                       <p> Cash </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="prome-code">
+                                 <a href="#">Have a promo? Please  <u>sign in</u>  to use</a>
+                              </div>
+                              <input type="button" value="Book Now" name="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Booking form sec end  here -->
+      <!-- footer sec start here -->
+      <footer class="footer">
+         <div class="container">
+            <div class="box-footer-top">
+               <div class="row align-items-center">
+                  <div class="col-lg-6 col-md-6">
+                     <div class="logo-footer">
+                        <a href="#">
+                        <img src="assets/images/logo.svg" alt="">
+                        </a>
+                        <a href="href:+41 22 715 7000" class="call-phone"><img src="assets/images/call.svg" alt=""> +41 22 715 7000</a>
+                     </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                     <div class="social-icon d-flex align-items-center justify-content-md-end justify-content-center">
+                        <span>Follow Us</span>
+                        <ul>
+                           <li>
+                              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row mb-40">
+               <div class="col-lg-3  width-20">
+                  <div class="footer-box">
+                     <h5>Company</h5>
+                     <ul class="menu-footer">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our offerings</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Gift cards</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-3  width-20">
+                  <div class="footer-box">
+                     <h5>Top cities</h5>
+                     <ul class="menu-footer">
+                        <li><a href="#">New York</a></li>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">Berlin</a></li>
+                        <li><a href="#">Los Angeles</a></li>
+                        <li><a href="#">Paris</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-3  width-20">
+                  <div class="footer-box">
+                     <h5>Explore</h5>
+                     <ul class="menu-footer">
+                        <li><a href="#">Intercity rides</a></li>
+                        <li><a href="#">Limousine service</a></li>
+                        <li><a href="#">Chauffeur service</a></li>
+                        <li><a href="#">Private car service</a></li>
+                        <li><a href="#">Ground transportation</a></li>
+                        <li><a href="#">Airport transfer</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-3  width-20">
+                  <div class="footer-box">
+                     <h5>Classes</h5>
+                     <ul class="menu-footer">
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">First</a></li>
+                        <li><a href="#">XL</a></li>
+                        <li><a href="#">Assistant</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-3  width-20">
+                  <div class="footer-box">
+                     <h5>Download The App</h5>
+                     <div class="text-start">
+                        <div class="box-button-download">
+                           <a class="btn btn-download" href="#">
+                              <div class="inner-download">
+                                 <div class="icon-download"><img src="assets/images/apple-icon.svg" alt="luxride"></div>
+                                 <div class="info-download"><span class="text-download-top">Download on the</span><span class="text-14-medium">Apple Store</span></div>
+                              </div>
+                           </a>
+                           <a class="btn btn-download" href="#">
+                              <div class="inner-download">
+                                 <div class="icon-download"><img src="assets/images//google-icon.svg" alt="luxride"></div>
+                                 <div class="info-download"><span class="text-download-top">Download on the</span><span class="text-14-medium">Apple Store</span></div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <div class="footer-bottom">
+               <div class="row align-items-center">
+                  <div class="col-lg-8 col-md-12 text-center text-lg-start">
+                     <span>© 2023 Luxride</span>
+                     <ul class="menu-bottom">
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Legal notice</a></li>
+                        <li><a href="#">Accessibility</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-lg-4 col-md-12 text-center text-lg-end">
+                     <div class="footer-bottm-btn">
+                        <a href="#">
+                        <img src="assets/images/marker.png" alt="">
+                        New York
+                        </a>
+                        <a href="#">
+                        <img src="assets/images/globe.svg" alt="">
+                        English
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- footer sec end  here -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+   </body>
+</html>
